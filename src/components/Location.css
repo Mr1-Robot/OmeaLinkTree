@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "IBM";
+    src: url("../Assets/Fonts/IBMPlexSansArabic-Bold.ttf");
+}
+
+
+.LocationIcon {
+    filter: drop-shadow(0px 4px 20px #48D1FF);
+    animation: color 2s linear infinite;
+    
+}
+
+@keyframes color {
+    0% {
+        filter: drop-shadow(0px 2px 8px #48D1FF);
+        transform: translateY(-.5rem);
+    }
+    25% {
+        filter: drop-shadow(0px 2px 8px transparent);
+        transform: translateY(.1rem);
+    }
+    50% {
+        filter: drop-shadow(0px 2px 8px transparent);
+    }
+    75% {
+        filter: drop-shadow(0px 2px 8px transparent);
+        transform: translateY(-1rem);
+    }
+    100% {
+        filter: drop-shadow(0px 2px 8px #48D1FF);
+        transform: translateY(-.5rem);
+    }
+}
+
+
+.LocationIcon:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(133deg, #ff3d00 0%, #0400ff 139% );
+    transform: translate3d(-6px, -1px, 0) scale(1.08);
+    filter: blur(20px);
+    opacity: var(0.58);
+    transition: opacity 0.3s;
+    border-radius: inherit;
+}
+
+/* 
+* Prevents issues when the parent creates a 
+* stacking context. (For example, using the transform
+* property )
+*/
+.LocationIcon::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    border-radius: inherit;
+}
+        
+
+.LocationText {
+    clip-path: polygon(9% 0%, 100% 0, 100% 74%, 90% 100%, 0 100%, 0 27%);
+    transform: rotate(-1deg);
+}
+
+.Text {
+    clip-path: polygon(9% 0%, 100% 0, 100% 67%, 88% 100%, 0 100%, 0 30%);
+}

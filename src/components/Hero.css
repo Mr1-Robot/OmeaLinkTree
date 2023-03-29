@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "alisha";
+    src: url("../Assets/Fonts/alisha.otf");
+    src: url("../Assets/Fonts/alisha.ttf");
+}
+
+
+p {
+    font-family: "IBM";
+}
