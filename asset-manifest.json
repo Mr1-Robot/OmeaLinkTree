@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/OmeaLinkTree/static/css/main.8ca9a859.css",
-    "main.js": "/OmeaLinkTree/static/js/main.e5c2b095.js",
+    "main.css": "/OmeaLinkTree/static/css/main.68c11cd9.css",
+    "main.js": "/OmeaLinkTree/static/js/main.203a9a80.js",
     "static/js/787.dc512ab0.chunk.js": "/OmeaLinkTree/static/js/787.dc512ab0.chunk.js",
     "static/media/img-1.png": "/OmeaLinkTree/static/media/img-1.9be0a288d996c82a5fd7.png",
     "static/media/img-2.png": "/OmeaLinkTree/static/media/img-2.ac52ff17118b1c949cfb.png",
     "static/media/img-4.png": "/OmeaLinkTree/static/media/img-4.2d7cc213f11dcda051b2.png",
     "static/media/img-3.png": "/OmeaLinkTree/static/media/img-3.71afcf2fa7e0bcc965f6.png",
     "static/media/IBMPlexSansArabic-Bold.ttf": "/OmeaLinkTree/static/media/IBMPlexSansArabic-Bold.4414bb5d273289a53e78.ttf",
+    "static/media/IBMPlexSansArabic-SemiBold.ttf": "/OmeaLinkTree/static/media/IBMPlexSansArabic-SemiBold.6a4c85b48b7bc4e1a4a0.ttf",
     "static/media/IBMPlexSansArabic-Medium.ttf": "/OmeaLinkTree/static/media/IBMPlexSansArabic-Medium.6967e0c92c5b542330be.ttf",
+    "static/media/IBMPlexSansArabic-Regular.ttf": "/OmeaLinkTree/static/media/IBMPlexSansArabic-Regular.dae364fb9c2b717518c7.ttf",
     "static/media/img-5.png": "/OmeaLinkTree/static/media/img-5.d4021579fe3384412430.png",
-    "static/media/alisha.otf": "/OmeaLinkTree/static/media/alisha.1b6da8bab4ea4d240740.otf",
-    "static/media/alisha.ttf": "/OmeaLinkTree/static/media/alisha.a86ea8a37f9462911d29.ttf",
     "static/media/omeaLogo.svg": "/OmeaLinkTree/static/media/omeaLogo.0b7adc203aaf09fa29be6f4e0c9c9d49.svg",
     "index.html": "/OmeaLinkTree/index.html",
-    "main.8ca9a859.css.map": "/OmeaLinkTree/static/css/main.8ca9a859.css.map",
-    "main.e5c2b095.js.map": "/OmeaLinkTree/static/js/main.e5c2b095.js.map",
+    "main.68c11cd9.css.map": "/OmeaLinkTree/static/css/main.68c11cd9.css.map",
+    "main.203a9a80.js.map": "/OmeaLinkTree/static/js/main.203a9a80.js.map",
     "787.dc512ab0.chunk.js.map": "/OmeaLinkTree/static/js/787.dc512ab0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ca9a859.css",
-    "static/js/main.e5c2b095.js"
+    "static/css/main.68c11cd9.css",
+    "static/js/main.203a9a80.js"
   ]
 }
