@@ -27,7 +27,6 @@
 
 .Overlay {
     background-color: #00000099;
-    height: 100vh;
 }
 
 
@@ -68,6 +67,7 @@
 
     .Overlay {
         gap: 2rem;
+        height: 100vh;
     }
 
     .Hero {
