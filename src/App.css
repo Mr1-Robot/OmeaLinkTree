@@ -1,12 +1,16 @@
 @font-face {
     font-family: "IBM";
-    src: url("./Assets/Fonts/IBMPlexSansArabic-Bold.ttf");
+    src: url("./Assets/Fonts/IBMPlexSansArabic-SemiBold.ttf");
 }
-
 @font-face {
     font-family: "IBM Light";
     src: url("./Assets/Fonts/IBMPlexSansArabic-Medium.ttf");
 }
+@font-face {
+    font-family: "IBM Regular";
+    src: url("./Assets/Fonts/IBMPlexSansArabic-Regular.ttf");
+}
+
 
 ::-webkit-scrollbar,
 ::-webkit-scrollbar-track {
@@ -20,16 +24,9 @@
     animation: change 20s linear infinite;
 }
 
-.particles-bg-canvas-self {
-    animation-delay: 30s;
-    height: 110% !important;
-}
-
 .Overlay {
     background-color: #00000099;
 }
-
-
 
 @keyframes change {
     0% {
@@ -63,11 +60,10 @@
 }
 
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 610px) {
 
     .Overlay {
-        gap: 2rem;
-        height: 100vh;
+        gap: 4.1rem;
     }
 
     .Hero {
@@ -93,10 +89,12 @@
     .Hero img {
         width: 20rem;
     }
-
-    .Hero p {
-        font-size: 1.8rem;
-        font-family: "IBM Light";
-        font-weight: 300;
+    
+    .Hero .HeroText {
+        width: fit-content;
     }
+
+.Left {
+    margin-top: 0 !important;    
+}
 }
