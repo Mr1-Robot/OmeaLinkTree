@@ -11,7 +11,7 @@ const SocialLinks = () => {
       id: 0,
       title: "Facebook",
       url: "https://www.facebook.com/Omea.media/?paipv=0&eav=AfZqcAHr3E3qxWTcbHDQ2O1QAZ-mT0j-rqRZ7nMuCxfF9NXuvR1bro4pCx2NjClwdbE&_rdr",
-      icon: <BsFacebook className="text-3xl text-[#0d8af0]" />,
+      icon: <BsFacebook className="text-2xl text-[#0d8af0]" />,
     },
 
     {
@@ -20,7 +20,7 @@ const SocialLinks = () => {
       url: "https://iq.linkedin.com/company/omea-media",
       icon: (
         <svg
-          width={"2rem"}
+          width={"1.5rem"}
           version="1.1"
           id="Capa_1"
           xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ const SocialLinks = () => {
       id: 6,
       title: "Telegram",
       url: "https://t.me/omeamedia",
-      icon: <FaTelegram className="text-3xl text-[#26a5e4]" />,
+      icon: <FaTelegram className="text-2xl text-[#26a5e4]" />,
     },
 
     {
@@ -82,7 +82,7 @@ const SocialLinks = () => {
       icon: (
         <svg
           viewBox="0 0 152 152"
-          width={"2rem"}
+          width={"1.5rem"}
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
         >
@@ -135,14 +135,14 @@ const SocialLinks = () => {
       id: 2,
       title: "Website",
       url: "https://www.omea.media/",
-      icon: <AiOutlineGlobal className="text-3xl" />,
+      icon: <AiOutlineGlobal className="text-2xl" />,
     },
 
     {
       id: 3,
       title: "Behance",
       url: "https://www.behance.net/omeamedia",
-      icon: <AiFillBehanceCircle className="text-3xl text-black" />,
+      icon: <AiFillBehanceCircle className="text-2xl text-black" />,
     },
 
     {
@@ -153,7 +153,7 @@ const SocialLinks = () => {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 152 152"
-          width="2rem"
+          width={"1.5rem"}
         >
           <g id="Layer_2" data-name="Layer 2">
             <g id="Color">
@@ -179,7 +179,7 @@ const SocialLinks = () => {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 64 64"
-          width="2rem"
+          width="1.4rem"
         >
           <g id="Icons" fill="none" fillRule="evenodd">
             <g
@@ -207,28 +207,17 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="SocialLinks bg-white w-[40rem] mx-4 mt-[2.4rem] mb-[.9rem] pb-[0.4rem] rounded-3xl flex flex-col items-center justify-between">
+    <div className="SocialLinks bg-[#ffffffcc] rounded-[21px] w-[40rem] mx-4  pb-[0.4rem] rounded-3xl flex flex-col items-center justify-between">
       <div className="Left mt-[1.1rem]">
-        {/* <a
-          href="https://www.instagram.com/omea.media/?igshid=YmMyMTA2M2Y%3D"
-          className="w-[19rem] block"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <div className="insta text-[#336066] bg-[#E8F5F7] flex items-center justify-between p-2 px-[.8rem] pr-[.3rem] pb-[.4rem] mb-2 rounded-3xl bg-[#E8F5F7]">
-            <h1>Instagram</h1>
-            <img src={Instagram} alt="instagram logo" className="w-[51px]" />
-          </div>
-        </a> */}
         {leftSocial.map((item) => (
           <a
             key={item.id}
             href={item.url}
-            className="w-[19rem] block"
+            className="w-[19rem] block mb-2"
             rel="noreferrer"
             target="_blank"
           >
-            <div className="SocialContainer text-[#336066] bg-[#E8F5F7] flex items-center justify-between p-2 mb-2 rounded-3xl bg-[#E8F5F7] px-[1.1rem]">
+            <div className="SocialContainer text-[#336066] bg-[#E8F5F7] flex items-center justify-between p-[.5rem] rounded-3xl bg-[#E8F5F7] px-[2rem]">
               {item.icon}
               <h1>{item.title}</h1>
             </div>
@@ -239,13 +228,13 @@ const SocialLinks = () => {
       <div className="right">
         {rightSocial.map((item) => (
           <a
-            className="w-[19rem] block"
+            className="w-[19rem] block mb-2"
             key={item.id}
             href={item.url}
             rel="noreferrer"
             target="_blank"
           >
-            <div className="SocialContainer text-[#336066] bg-[#E8F5F7] flex items-center justify-between p-2 px-[.8rem] mb-2 rounded-3xl bg-[#E8F5F7] px-[1.1rem]">
+            <div className="SocialContainer text-[#336066] bg-[#E8F5F7] flex items-center justify-between p-[.5rem] rounded-3xl bg-[#E8F5F7] px-[2rem]">
               {item.icon}
               <h1>{item.title}</h1>
             </div>

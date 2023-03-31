@@ -18,44 +18,28 @@
 }
 
 .App {
-    background: url(./Assets/Images/img-4.png) no-repeat;
+    background: url(./Assets/Images/bg.svg) no-repeat;
     background-size: cover;
     background-position: center center;
-    animation: change 20s linear infinite;
+    animation: change 40s ease-in-out infinite;
 }
 
 .Overlay {
-    background-color: #00000099;
+    background: linear-gradient(180deg, rgb(13 65 83 / 88%) 9.64%, rgb(0 131 175 / 55%) 82.59%);
 }
 
 @keyframes change {
     0% {
-        background: url(./Assets/Images/img-1.png) no-repeat;
         background-size: cover;
-        background-position: center center;
+        background-position: 100% 22%;
     }
-    25%{
-        background: url(./Assets/Images/img-2.png) no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-
     50% {
-        background: url(./Assets/Images/img-3.png) no-repeat;
         background-size: cover;
-        background-position: center center;
+        background-position: 50% 22%;
     }
-
-    75% {
-        background: url(./Assets/Images/img-4.png) no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-
     100% {
-        background: url(./Assets/Images/img-5.png) no-repeat;
         background-size: cover;
-        background-position: center center;
+        background-position: 100% 22%;
     }
 }
 

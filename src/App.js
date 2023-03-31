@@ -10,10 +10,12 @@ function App() {
     <div className="App">
       <div className="Overlay flex flex-col justify-between items-center">
         <Hero />
-        <div className="flex justify-center w-[100%]">
+        <div className="flex justify-center mt-4 mx-4 mb-[.9rem] w-[100%]">
           <SocialLinks />
         </div>
-        <Location />
+        <div className="mb-[3.2rem] mt-6">
+          <Location />
+        </div>
       </div>
     </div>
   );
