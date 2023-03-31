@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/OmeaLinkTree/static/css/main.83943b45.css",
+    "main.css": "/OmeaLinkTree/static/css/main.7dc8ecef.css",
     "main.js": "/OmeaLinkTree/static/js/main.1696c808.js",
     "static/js/787.dc512ab0.chunk.js": "/OmeaLinkTree/static/js/787.dc512ab0.chunk.js",
     "static/media/bg.svg": "/OmeaLinkTree/static/media/bg.24baaf8746bd1c7a001a.svg",
@@ -11,12 +11,12 @@
     "static/media/txt.svg": "/OmeaLinkTree/static/media/txt.790ea25243c406da24d2a0094d4dd936.svg",
     "static/media/logo-omea.svg": "/OmeaLinkTree/static/media/logo-omea.8646e7c52c712ef64d59719dd5956aac.svg",
     "index.html": "/OmeaLinkTree/index.html",
-    "main.83943b45.css.map": "/OmeaLinkTree/static/css/main.83943b45.css.map",
+    "main.7dc8ecef.css.map": "/OmeaLinkTree/static/css/main.7dc8ecef.css.map",
     "main.1696c808.js.map": "/OmeaLinkTree/static/js/main.1696c808.js.map",
     "787.dc512ab0.chunk.js.map": "/OmeaLinkTree/static/js/787.dc512ab0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83943b45.css",
+    "static/css/main.7dc8ecef.css",
     "static/js/main.1696c808.js"
   ]
 }
