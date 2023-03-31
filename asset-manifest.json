@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/OmeaLinkTree/static/css/main.7bbf0dab.css",
-    "main.js": "/OmeaLinkTree/static/js/main.2d306b61.js",
+    "main.css": "/OmeaLinkTree/static/css/main.ca948d02.css",
+    "main.js": "/OmeaLinkTree/static/js/main.f3990b0a.js",
     "static/js/787.dc512ab0.chunk.js": "/OmeaLinkTree/static/js/787.dc512ab0.chunk.js",
-    "static/media/bg.svg": "/OmeaLinkTree/static/media/bg.f32a023494d3bc16b739.svg",
+    "static/media/bg.svg": "/OmeaLinkTree/static/media/bg.24baaf8746bd1c7a001a.svg",
     "static/media/IBMPlexSansArabic-Bold.ttf": "/OmeaLinkTree/static/media/IBMPlexSansArabic-Bold.4414bb5d273289a53e78.ttf",
     "static/media/IBMPlexSansArabic-SemiBold.ttf": "/OmeaLinkTree/static/media/IBMPlexSansArabic-SemiBold.6a4c85b48b7bc4e1a4a0.ttf",
     "static/media/IBMPlexSansArabic-Medium.ttf": "/OmeaLinkTree/static/media/IBMPlexSansArabic-Medium.6967e0c92c5b542330be.ttf",
     "static/media/IBMPlexSansArabic-Regular.ttf": "/OmeaLinkTree/static/media/IBMPlexSansArabic-Regular.dae364fb9c2b717518c7.ttf",
-    "static/media/txt.svg": "/OmeaLinkTree/static/media/txt.a9ce0531416651c95ccacbd9ae41a505.svg",
-    "static/media/logo-omea.svg": "/OmeaLinkTree/static/media/logo-omea.df351b89e91b06466896be7796f7f39b.svg",
+    "static/media/txt.svg": "/OmeaLinkTree/static/media/txt.790ea25243c406da24d2a0094d4dd936.svg",
+    "static/media/logo-omea.svg": "/OmeaLinkTree/static/media/logo-omea.8646e7c52c712ef64d59719dd5956aac.svg",
     "index.html": "/OmeaLinkTree/index.html",
-    "main.7bbf0dab.css.map": "/OmeaLinkTree/static/css/main.7bbf0dab.css.map",
-    "main.2d306b61.js.map": "/OmeaLinkTree/static/js/main.2d306b61.js.map",
+    "main.ca948d02.css.map": "/OmeaLinkTree/static/css/main.ca948d02.css.map",
+    "main.f3990b0a.js.map": "/OmeaLinkTree/static/js/main.f3990b0a.js.map",
     "787.dc512ab0.chunk.js.map": "/OmeaLinkTree/static/js/787.dc512ab0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bbf0dab.css",
-    "static/js/main.2d306b61.js"
+    "static/css/main.ca948d02.css",
+    "static/js/main.f3990b0a.js"
   ]
 }
