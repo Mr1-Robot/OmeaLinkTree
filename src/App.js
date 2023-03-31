@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="Overlay flex flex-col justify-between items-center">
+      <div className="Overlay flex flex-col justify-between items-center gap-[1.4rem]">
         <Hero />
         <div className="flex justify-center mt-4 mx-4 mb-[.9rem] w-[100%]">
           <SocialLinks />

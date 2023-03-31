@@ -78,7 +78,7 @@ const SocialLinks = () => {
     {
       id: 7,
       title: "Instagram",
-      url: "https://www.instagram.com/omeamedia/",
+      url: "https://www.instagram.com/omea.media/",
       icon: (
         <svg
           viewBox="0 0 152 152"
