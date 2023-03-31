@@ -21,7 +21,7 @@
     background: url(./Assets/Images/bg.svg) no-repeat;
     background-size: cover;
     background-position: center center;
-    animation: change 40s ease-in-out infinite;
+    animation: change 50s ease-in-out infinite;
 }
 
 .Overlay {
@@ -45,6 +45,10 @@
 
 
 @media screen and (min-width: 610px) {
+
+    .App {
+        animation: change 40s linear infinite;
+    }
 
     .Overlay {
         gap: 4.1rem;
@@ -77,6 +81,7 @@
     .Hero .HeroText {
         width: fit-content;
     }
+
 
 .Left {
     margin-top: 0 !important;    
