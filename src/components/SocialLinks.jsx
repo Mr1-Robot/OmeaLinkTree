@@ -11,7 +11,9 @@ const SocialLinks = () => {
       id: 0,
       title: "Facebook",
       url: "https://www.facebook.com/Omea.media/?paipv=0&eav=AfZqcAHr3E3qxWTcbHDQ2O1QAZ-mT0j-rqRZ7nMuCxfF9NXuvR1bro4pCx2NjClwdbE&_rdr",
-      icon: <BsFacebook className="text-2xl text-[#0d8af0]" />,
+      icon: (
+        <BsFacebook className="SocialIcon text-2xl md:text-3xl text-[#0d8af0]" />
+      ),
     },
 
     {
@@ -30,6 +32,7 @@ const SocialLinks = () => {
           viewBox="0 0 112.196 112.196"
           style={{ enableBackground: "new 0 0 112.196 112.196" }}
           xmlSpace="preserve"
+          className="SocialIcon w-[1.5rem] md:w-[1.875rem]"
         >
           <g>
             <circle
@@ -72,7 +75,9 @@ const SocialLinks = () => {
       id: 6,
       title: "Telegram",
       url: "https://t.me/omeamedia",
-      icon: <FaTelegram className="text-2xl text-[#26a5e4]" />,
+      icon: (
+        <FaTelegram className="SocialIcon text-2xl md:text-3xl text-[#26a5e4]" />
+      ),
     },
 
     {
@@ -85,6 +90,7 @@ const SocialLinks = () => {
           width={"1.5rem"}
           xmlns="http://www.w3.org/2000/svg"
           xmlnsXlink="http://www.w3.org/1999/xlink"
+          className="SocialIconInsta w-[1.5rem] md:w-[1.875rem]"
         >
           <linearGradient
             id="linear-gradient"
@@ -135,14 +141,16 @@ const SocialLinks = () => {
       id: 2,
       title: "Website",
       url: "https://www.omea.media/",
-      icon: <AiOutlineGlobal className="text-2xl" />,
+      icon: <AiOutlineGlobal className="SocialIcon text-2xl md:text-3xl" />,
     },
 
     {
       id: 3,
       title: "Behance",
       url: "https://www.behance.net/omeamedia",
-      icon: <AiFillBehanceCircle className="text-2xl text-black" />,
+      icon: (
+        <AiFillBehanceCircle className="SocialIcon text-2xl md:text-3xl text-black" />
+      ),
     },
 
     {
@@ -154,6 +162,7 @@ const SocialLinks = () => {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 152 152"
           width={"1.5rem"}
+          className="SocialIcon w-[1.5rem] md:w-[1.875rem]"
         >
           <g id="Layer_2" data-name="Layer 2">
             <g id="Color">
@@ -180,6 +189,7 @@ const SocialLinks = () => {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 64 64"
           width="1.4rem"
+          className="SocialIconWa w-[1.5rem] md:w-[1.875rem]"
         >
           <g id="Icons" fill="none" fillRule="evenodd">
             <g
