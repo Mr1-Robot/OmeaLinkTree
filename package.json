@@ -1,4 +1,6 @@
-{ "homepage": "https://Mr1-Robot.github.io/OmeaLinkTree", "name": "omea-app",
+{
+  "homepage": "https://linktree.omea.media/",
+  "name": "omea-links",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
