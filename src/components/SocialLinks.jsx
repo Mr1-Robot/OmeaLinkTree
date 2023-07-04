@@ -217,7 +217,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="SocialLinks bg-[#ffffffcc] rounded-[21px] w-[40rem] mx-4  pb-[0.4rem] rounded-3xl flex flex-col items-center justify-between">
+    <div className="SocialLinks bg-[#ffffffcc] w-[40rem] mx-4  pb-[0.4rem] rounded-3xl flex flex-col items-center justify-between">
       <div className="Left mt-[1.1rem]">
         {leftSocial.map((item) => (
           <a
@@ -227,7 +227,7 @@ const SocialLinks = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <div className="SocialContainer text-[#336066] bg-[#E8F5F7] flex items-center justify-between p-[.5rem] rounded-3xl bg-[#E8F5F7] px-[2rem]">
+            <div className="SocialContainer text-[#336066] flex items-center justify-between p-[.5rem] rounded-3xl bg-[#E8F5F7] px-[2rem]">
               {item.icon}
               <h1>{item.title}</h1>
             </div>
@@ -244,7 +244,7 @@ const SocialLinks = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <div className="SocialContainer text-[#336066] bg-[#E8F5F7] flex items-center justify-between p-[.5rem] rounded-3xl bg-[#E8F5F7] px-[2rem]">
+            <div className="SocialContainer text-[#336066] flex items-center justify-between p-[.5rem] rounded-3xl bg-[#E8F5F7] px-[2rem]">
               {item.icon}
               <h1>{item.title}</h1>
             </div>

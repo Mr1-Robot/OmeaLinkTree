@@ -13,10 +13,12 @@ a .SocialContainer {
 
 a:hover {
   transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
 }
 
 .insta {
   direction: ltr;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover .SocialContainer {
@@ -25,28 +27,36 @@ a:hover .SocialContainer {
   color: #fff;
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
 }
 a:hover .SocialIcon {
   color: #fff;
+  transition: all 0.2s ease-in-out;
 }
 a:hover .SocialIcon {
   fill: #fff !important;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover .SocialIconWa g {
   fill: #fff !important;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover .SocialIconInsta rect {
   fill: #fff;
+  transition: all 0.2s ease-in-out;
 }
 a:hover .SocialIconInsta path {
   fill: #336066;
+  transition: all 0.2s ease-in-out;
 }
 
 a:hover .SocialIcon circle {
   fill: #fff !important;
+  transition: all 0.2s ease-in-out;
 }
 a:hover .SocialIcon g path {
   fill: #336066 !important;
+  transition: all 0.2s ease-in-out;
 }
